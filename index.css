@@ -1,0 +1,76 @@
+/*
+  Name: Thomas McFann
+  Date: Oct 16, 2018
+  Section: CSE 154 AK
+  This is the index.css for my MET collection api page.
+  It is used by the page of my MET collection site to provide the design for the html file.
+*/
+
+body, #display-area {
+  text-align: center;
+}
+
+body, button, textarea {
+  font-family: 'Roboto', sans-serif;
+}
+
+body, div, main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main p {
+  font-size: 1.3rem;
+}
+
+button, textarea {
+  font-size: 1rem;
+  padding: 10px;
+  margin: 10px;
+}
+
+textarea {
+  margin-top: 50px;
+  color: black;
+}
+
+button {
+  border: 0px;
+  cursor: pointer;
+}
+
+h2, main p {
+  width: 65%;
+}
+
+img {
+  width: 70%;
+  margin: auto;
+}
+
+main {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+footer, header {
+  padding: 10px;
+  width: 100%;
+}
+
+button, footer, header {
+  background-color: black;
+}
+
+footer, body, button {
+  color: white;
+}
+
+#display-area {
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
